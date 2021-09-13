@@ -3,7 +3,6 @@ package com.example.book.service;
 import com.example.book.domain.Book;
 import com.example.book.domain.BookRepository;
 import lombok.RequiredArgsConstructor;
-import org.apache.logging.log4j.util.Supplier;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
