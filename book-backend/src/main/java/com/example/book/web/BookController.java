@@ -18,6 +18,7 @@ public class BookController {
         return new ResponseEntity<>(bookService.registerBook(book), HttpStatus.CREATED);
     }
 
+    @CrossOrigin
     @GetMapping("/book")
     public ResponseEntity<?> findAll() {
         return new ResponseEntity<>(bookService.getBookList(), HttpStatus.OK);
