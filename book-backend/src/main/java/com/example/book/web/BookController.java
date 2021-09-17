@@ -13,6 +13,7 @@ public class BookController {
 
     private final BookService bookService;
 
+    @CrossOrigin
     @PostMapping("/book")
     public ResponseEntity<?> save(@RequestBody Book book) {
         return new ResponseEntity<>(bookService.registerBook(book), HttpStatus.CREATED);
@@ -24,6 +25,7 @@ public class BookController {
         return new ResponseEntity<>(bookService.getBookList(), HttpStatus.OK);
     }
 
+    @CrossOrigin
     @GetMapping("/book/{id}")
     public ResponseEntity<?> findById(@PathVariable Long id) {
         return new ResponseEntity<>(bookService.getBookDetail(id), HttpStatus.OK);
