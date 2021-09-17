@@ -63,7 +63,7 @@ const SaveForm = (props) => {
         />
       </Form.Group>
       <Button variant="primary" type="submit">
-        제출
+        등록
       </Button>
     </Form>
   );
