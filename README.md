@@ -60,4 +60,3 @@
 
 **3. 글 상세 조회 페이지**   
 <img src="https://user-images.githubusercontent.com/61148914/133881626-79341453-47b9-4bda-98d0-1dbc3004868a.png" width="60%">
-</br>
